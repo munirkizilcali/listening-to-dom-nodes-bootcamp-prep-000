@@ -2,6 +2,17 @@
 <html>
   <head>
     <title>Listening to Nodes</title>
+
+    <style>
+     div {
+       border: 1px solid red;
+       padding: 6px;
+       min-height: 12px;
+     }
+    </style>
+  </head>
+
+  <body>
     <script>
       const divs = document.querySelectorAll('div')
 
@@ -15,18 +26,7 @@ function bubble(e) {
 for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', bubble)
 }
-    </script>
-    <style>
-     div {
-       border: 1px solid red;
-       padding: 6px;
-       min-height: 12px;
-     }
-    </style>
-  </head>
-
-  <body>
-    
+    </script>    
     <main id="main">My ID is "main"!</main>
 
     <br />
